@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "wait_minutes": 3,
+  "rules": [
+    {
+      "id": "1",
+      "keywords": ["salom", "assalomu alaykum", "ssalom", "hi", "hello"],
+      "reply": "Vaalaykum assalom! 💕 Lady Shop ga xush kelibsiz!"
+    },
+    {
+      "id": "2",
+      "keywords": ["narx", "narxi", "qancha", "pul", "price"],
+      "reply": "Narx bilan qiziqayotganingiz uchun rahmat! 💰\nBatafsil uchun adminga yozing."
+    },
+    {
+      "id": "3",
+      "keywords": ["qayerda", "manzil", "adres"],
+      "reply": "📍 Biz to'liq online! DM yoki @ladyshop_pop"
+    },
+    {
+      "id": "4",
+      "keywords": ["rahmat", "raxmat", "спасибо"],
+      "reply": "Arzimaydi! 😊 Yana murojaat qiling!"
+    }
+  ]
+}
