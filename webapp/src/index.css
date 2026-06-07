@@ -1,0 +1,49 @@
+:root {
+  --bg:     #1a0a0f;
+  --card:   #261018;
+  --card2:  #2e1420;
+  --pink:   #e8527a;
+  --pinkL:  #f07898;
+  --rose:   #ff8fab;
+  --gold:   #d4a853;
+  --text:   #f5e6ea;
+  --muted:  #8a6070;
+  --border: rgba(232,82,122,0.15);
+  --r:      18px;
+  --r-sm:   12px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 16px;
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  border: 1.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--r-sm);
+  padding: 12px 14px;
+  width: 100%;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: var(--pink);
+  box-shadow: 0 0 0 4px rgba(232,82,122,.08);
+}
+textarea { resize: none; min-height: 80px; }
+select option { background: #2e1420; }
+::-webkit-scrollbar { width: 0; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
